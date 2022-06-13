@@ -42,13 +42,21 @@ body{
     left: 50%;
 }
 
-.profile .image img{
+.container .profile .image img{
     margin-top: 50px;
     height: 125px;
     width: 125px;
     border-radius: 50%;
     border: 2px solid #00FF00;
 }
+
+.container .profile .username{
+  
+    text-align: 50px 0 0 0;
+    font-weight: 700;
+    font-size: 23px;
+}
+
 
 
 
