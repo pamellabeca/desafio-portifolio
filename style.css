@@ -12,6 +12,7 @@ body{
     width: 100vh;
     background-color: #22212C;
     font-family: 'Merriweather Sans', sans-serif;   
+    text-align: center;
 }
 
 .container{
@@ -187,8 +188,17 @@ ul{
     text-transform: uppercase;
 }
 
+.container2{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
 .credits{
-    align-items: center;
+  
     font-size: 14px;
     font-weight: 500;
 
