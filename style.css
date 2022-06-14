@@ -93,9 +93,7 @@ ol{
     align-items: center;
     padding: 0 15px;
 
-    text-align:left;
-
-    
+    text-align:left;    
 }
 
 h2{
@@ -149,7 +147,43 @@ h2{
     font-weight: 500;
 }
 
+.container .experiences .empresas{
+    padding: 10px;
+}
+
+.container .education{
+    height: 352px;
+    width: 348px;
+    background-color: #302F3D;
+    margin: 20px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.container .education .nomeinst{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container .education .data{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container .education .cargo{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container .estudo{
+    padding: 10px;
+}
+
 ul{
     text-align: left;
     margin: 0px 30px;
+    text-transform: uppercase;
 }
+
