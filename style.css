@@ -68,15 +68,30 @@ body{
 .container .links{
     height: 348px;
     width: 348px;
+
     background-color: #302F3D;
     margin: 20px;
     border-radius: 15px;
+
     text-align: left;
-    padding: 30px 40px;
+    padding: 30px 20px;
     line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
 }
 ol{
     list-style-type: none;
 }
 
+.container .technologies{
+    height: 208px;
+    width: 348px;
+
+    background-color: #302F3D;
+    margin: 20px;
+    border-radius: 15px;
+
+
+
+}
 
