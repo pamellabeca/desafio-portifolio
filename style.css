@@ -187,3 +187,9 @@ ul{
     text-transform: uppercase;
 }
 
+.credits{
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+
+}
