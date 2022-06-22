@@ -5,22 +5,38 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #837E9F;
+    
 }
 
 body{
+    margin: 0;
     height: 100vh;
     width: 100vh;
+    
+
     background-color: #22212C;
     font-family: 'Merriweather Sans', sans-serif;   
     text-align: center;
+
+    display: grid;
+    grid-template-areas: 
+    "lateral principal"
+    "rodapé rodapé";
+    grid-template-rows: 1fr 40px;
+    grid-template-columns: 410px 1fr ;
 }
 
-.container{
-       flex-direction: row;
-       height: 100vh;
-       width: 100vh;
-       
-      
+aside{
+    grid-area: lateral;
+}
+
+main{
+    grid-area: principal;
+
+}
+
+footer{
+    grid-area: rodapé;
 }
 
 .container .profile{
@@ -102,7 +118,7 @@ ol{
 }
 
 h2{
-    margin-top: 20px;
+    
     padding: 15px 20px;
     font-size: 20;
     font-weight: 700;
@@ -196,14 +212,120 @@ ul{
     flex-direction: row-reverse;
 }
 
+.my-projects{
+    width: 912px;
+    height: 65px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    line-height: 1.5;
+}
 
+.titlelinhas{
+    margin: 20px;
+    display: grid;
+    grid-template-areas: 
+    "direita esquerda";
+    grid-template-rows:100%;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+}
 
+.otitulo{
+    text-align:left;
+    grid-area: direita;
+}
 
+.onavegavel{
+    grid-area: esquerda;
+    text-align: right;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
 
+.projects{
+    margin: 20px;
+    display: grid;
+    grid-template-areas: 
+    "LD LE";
+    grid-template-rows:100%;
+    grid-template-columns: 50% 50%;
+   
+    text-align: center;
+    height: 65px;
+}
+
+.project1{
+
+    height: 186px;
+    width: 420px;
+
+    background-color: #302F3D;
+    margin-top: 25px;
+    margin-left: 0;
+    border-radius: 15px;
+
+    text-align: left;
+    padding: 30px 20px;
+    line-height: 2.3;
+    list-style-type: none;
+
+    grid-area: LD;
+}
+
+.iconsprojet{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.textinho{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.iconsabaixo{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.project2{
+    height: 186px;
+    width: 420px;
+
+    background-color: #302F3D;
+    margin-top: 25px;
+    border-radius: 15px;
+
+    text-align: left;
+    padding: 30px 20px;
+    line-height: 2.3;
+    list-style-type: none;
+
+    grid-area: LE;
+}
+
+.iconsprojet2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.textinho2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.iconsabaixo2{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 .credits{
-  
+    text-align: center;
     font-size: 14px;
     font-weight: 500;
 
 }
+
